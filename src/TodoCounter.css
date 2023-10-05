@@ -1,0 +1,11 @@
+.TodoCounter {
+    font-size: 24px;   /*Define que el tamaño de la letra del título es de 24px*/
+    text-align: center;   /*Alinear horizontalmente el texto al centro de la pantalla*/
+    margin: 0;   /*Establece un margen alrededor de 0px*/
+    padding: 48px;   /*El espacio entre el contenido del elemento y su borde es de 48px*/
+    font-weight: normal;   /*El ancho de la letra se hace normal*/
+}
+
+.TodoCounter span {
+    font-weight: bold;   /*Se amplía el ancho de la letra*/
+}

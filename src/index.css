@@ -1,13 +1,14 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0;   /*Establece un margen alrededor de 0px*/
+  padding: 0;   /*El espacio entre el contenido del elemento y su borde es de 0*/
+  background: #f2f4f5;   /*Hace que el color de fondo sea gris claro*/
+  color: #1e1e1f;   /*Hace que el color predeterminado del texto sea negro*/
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;   /*Si el tipo de letra Montserrat no está disponible en los equipos de los usuarios se mostrará el tipo de letra Arial o sino Helvetica o sino sans-serif*/
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  margin: 0 24px;   /*Con el 0 entendemos que no se aplicarán márgenes a la parte superior e inferior, pero si aplicaremos un margen de 24px a los márgenes derecho e izquierdo*/
+  position: relative;   /*Al aplicar position: relative, puedes desplazar el elemento desde su posición normal utilizando las propiedades top, right, bottom y left.*/
+  min-height: 100vh;   /*Establecer la altura mínima que un elemento debe tener.*/
 }

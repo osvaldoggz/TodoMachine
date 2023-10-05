@@ -1,0 +1,25 @@
+.CreateTodoButton {
+    background-color: #61DAFA;  /*Le da un color azul celeste al botón*/
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);   /*Añade una sombra al botón: el 0px es para colocar la sombra hacia la derecha, el 5px es para colocar la sombra hacia abajo, el 25px es el desenfoque de la sombra y por último está el color de la sombra*/
+    border: none;   /*Le quita el borde que tenía por defecto el botón*/
+    border-radius: 50%;   /*Le da un borde circular al botón*/
+    cursor: pointer;   /*Cuando el usuario pase el cursor por el botón cambiará de una flecha a una manita*/
+    font-size: 50px;   /*Da un tamaño de 50 px al simbolo de +*/
+    position: fixed;   /*Posiciona el elemento de manera fija en la pantalla*/
+    bottom: 24px;   /*Posiciona el elemento 24px del fondo de la pantalla*/
+    right: 24px;   /*Posiciona el elemento 24px a la derecha de la pantalla*/
+    font-weight: bold;   /*Hace que el símbolo + se haga más ancho*/
+    color: #fafafa;   /*Le da un color blanco al relleno del símbolo +*/
+    display: flex;   /*Establece el contenedor como un contenedor flexible*/
+    justify-content: center;   /*Alinea horizontalmente el símbolo + al centro del botón*/
+    align-items: center;   /*Alinea verticalmente el símbolo + al centro del botón*/
+    height: 64px;   /*Le da una altura al botón de 64px*/
+    width: 64px;   /*Le da un ancho al botón de 64px*/
+
+    transform: rotate(0);   /*Aplica una rotación al símbolo +*/
+    transition: .3s ease;   /*Indica que el giro se hará con una duración de .3 segundos, "ease" es un tipo de transición comúnmente utilizado y se caracteriza por comenzar lentamente, acelerar en el medio de la transición y luego desacelerar antes de llegar al estado final.*/
+}
+
+.CreateTodoButton:hover{   /*:hover es un pseudo-selector que se utiliza para aplicar estilos a un elemento cuando se coloca el cursor sobre él.*/
+    transform: rotate(224deg);   /*Indica que el símbolo + dará una vuelta de 224 grados*/
+}
