@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Users/estud/OneDrive/Escritorio/MisCursos/todoMachine/build/static/css/main.331e2bea.css",
+    "main.js": "/Users/estud/OneDrive/Escritorio/MisCursos/todoMachine/build/static/js/main.60d14ef7.js",
+    "index.html": "/Users/estud/OneDrive/Escritorio/MisCursos/todoMachine/build/index.html",
+    "static/media/delete.svg": "/Users/estud/OneDrive/Escritorio/MisCursos/todoMachine/build/static/media/delete.253668d653616a4e68d22c69ee5da594.svg",
+    "static/media/check.svg": "/Users/estud/OneDrive/Escritorio/MisCursos/todoMachine/build/static/media/check.410fcc562665be2040c883d2a24cbc5c.svg",
+    "main.331e2bea.css.map": "/Users/estud/OneDrive/Escritorio/MisCursos/todoMachine/build/static/css/main.331e2bea.css.map",
+    "main.60d14ef7.js.map": "/Users/estud/OneDrive/Escritorio/MisCursos/todoMachine/build/static/js/main.60d14ef7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.331e2bea.css",
+    "static/js/main.60d14ef7.js"
+  ]
+}
