@@ -15,6 +15,7 @@
     align-items: center;   /*Alinea verticalmente el símbolo + al centro del botón*/
     height: 64px;   /*Le da una altura al botón de 64px*/
     width: 64px;   /*Le da un ancho al botón de 64px*/
+    z-index: 1;   /*Sirve para posicionarlo una capa del html arriba y que cuando abramos nuestro modal se vea el botón por encima
 
     transform: rotate(0);   /*Aplica una rotación al símbolo +*/
     transition: .3s ease;   /*Indica que el giro se hará con una duración de .3 segundos, "ease" es un tipo de transición comúnmente utilizado y se caracteriza por comenzar lentamente, acelerar en el medio de la transición y luego desacelerar antes de llegar al estado final.*/
